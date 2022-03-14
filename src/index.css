@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: powderblue;
+}
+.heading{
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 3px 3px 7px hotpink;
+  color: brown;
+}
+.heading:hover{
+  color: purple;
+  text-shadow: 3px 3px 7px brown;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.name, .rating{
+  margin-left: 69px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 19px;
+  
+}
+.dept{
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 19px;
+}
+label{
+  margin-left: 500px;
+  font-size: 28px;
+  text-shadow: 3px 3px 7px hotpink;
+  color: brown;
+  
+}
+.btn{
+  margin-left: 650px;
+  font-size: 20px;
+  margin-top: 50px;
+  width: 250px;
+  height: 50px;
+  border: 2px solid #2d2e2e;
+  border-radius: 30px;
+}
+.btn:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.feedback_container{
+  margin: auto;
+  margin-top: 3rem;
+  width: 85%;
+  height: auto;
+  background-color: snow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.inbox{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+  border-radius: 5px;
+  font-size: 26px;
+  width: 600px;
+  height: 3rem;
+  border: 2px solid black;
+  background-color: hotpink;
+  border-radius: 5px;
+ 
 }
